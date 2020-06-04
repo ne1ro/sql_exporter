@@ -5,11 +5,11 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/free/sql_exporter"
+	"github.com/ne1ro/sql_exporter"
 )
 
 const (
-	docsUrl   = "https://github.com/free/sql_exporter#readme"
+	docsUrl   = "https://github.com/ne1ro/sql_exporter#readme"
 	templates = `
     {{ define "page" -}}
       <html>

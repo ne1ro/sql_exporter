@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/free/sql_exporter"
 	log "github.com/golang/glog"
+	"github.com/ne1ro/sql_exporter"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/expfmt"
 )

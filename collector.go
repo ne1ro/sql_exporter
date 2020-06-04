@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/free/sql_exporter/config"
-	"github.com/free/sql_exporter/errors"
 	log "github.com/golang/glog"
+	"github.com/ne1ro/sql_exporter/config"
+	"github.com/ne1ro/sql_exporter/errors"
 	dto "github.com/prometheus/client_model/go"
 )
 
